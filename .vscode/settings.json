@@ -2,10 +2,10 @@
     "latex-workshop.message.update.show": false,
     "latex-workshop.view.pdf.viewer": "browser",
     "latex-workshop.intellisense.package.enabled": true,
-    "latex-workshop.intellisense.surroundCommand.enabled": true,
+    "latex-workshop.intellisense.citation.label": "bibtex key",
     "latex-workshop.intellisense.unimathsymbols.enabled": true,
-    "latex-workshop.latex.autoBuild.onSave.enabled": false,
-    "latex-workshop.latex.clean.enabled": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.latex.autoClean.run": "never",
     "latex-workshop.latex.recipes": [
         {
             "name": "pdflatex -> bibtex -> pdflatex*2",
@@ -57,7 +57,9 @@
         "**/*.log": true,
         "**/*.fdb_latexmk": true,
         "**/*.synctex.gz": true,
-        "**/*-eps-converted-to.pdf": true      
+        "**/*-eps-converted-to.pdf": true,
+        "**/*.run.xml": true,
+        "**/*-blx.bib": true
     },
     "latex-workshop.latex.clean.fileTypes": [
         "**/*.aux",
@@ -80,27 +82,8 @@
         "**/*.log",
         "**/*.fdb_latexmk",
         "**/*.synctex.gz",
-        "**/*-eps-converted-to.pdf"
-    ],
-    "cSpell.language": "en,fr",
-    "cSpell.words": [
-        "lorsqu'un",
-        "puisqu'ils",
-        "adls",
-        "amiqual",
-        "aujourd'hui",
-        "aujourd’hui",
-        "home",
-        "labéliser",
-        "labélisées",
-        "lorsqu'elle",
-        "lorsqu'il",
-        "lorsqu'ils",
-        "lorsqu'une",
-        "perceptron",
-        "perceptrons",
-        "puisqu'elles",
-        "puisqu'il",
-        "puisqu'un"
+        "**/*-eps-converted-to.pdf",
+        "**/*.run.xml",
+        "**/*-blx.bib"
     ]
 }
