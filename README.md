@@ -2,7 +2,7 @@
 
 ![Logo][logo] ![Logo][logo] ![Logo][logo]  ![Logo][logo]  ![Logo][logo] ![Logo][logo] ![Logo][logo]
 
-[![GitHub](https://img.shields.io/github/license/FlorentinTh/Manuscripts-Public?style=flat-square)](https://github.com/FlorentinTh/Manuscripts-Public/blob/master/LICENSE)
+[![GitHub](https://img.shields.io/github/license/FlorentinTh/Contributions-Public?style=flat-square)](https://github.com/FlorentinTh/Contributions-Public/blob/master/LICENSE)
 
 This repository contains all the sources of every single piece of published scientific contribution I made as first author which I consider as my properties entirely and not publishers one.
 
