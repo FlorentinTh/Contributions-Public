@@ -5,7 +5,7 @@
     "latex-workshop.intellisense.citation.label": "bibtex key",
     "latex-workshop.intellisense.unimathsymbols.enabled": true,
     "latex-workshop.latex.autoBuild.run": "never",
-    "latex-workshop.latex.autoClean.run": "never",
+    "latex-workshop.hover.citation.enabled": true,
     "latex-workshop.latex.recipes": [
         {
             "name": "pdflatex -> bibtex -> pdflatex*2",
@@ -26,14 +26,16 @@
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "%DOC%"
-            ]
+            ],
+            "env": {}
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
                 "%DOCFILE%"
-            ]
+            ],
+            "env": {}
         }
     ],
     "files.exclude": {
@@ -61,6 +63,8 @@
         "**/*.run.xml": true,
         "**/*-blx.bib": true
     },
+    "latex-workshop.latex.autoClean.run": "never",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
     "latex-workshop.latex.clean.fileTypes": [
         "**/*.aux",
         "**/*.bbl",
